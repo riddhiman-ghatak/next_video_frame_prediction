@@ -1,6 +1,7 @@
 ## Next Video Frame Prediction
 
-![image](https://github.com/riddhiman-ghatak/next_video_rame_prediction/assets/109431506/775bcd54-05e3-4bf8-9e16-edf66624a729)
+![image](https://github.com/riddhiman-ghatak/next_video_frame_prediction/assets/109431506/cea9b6bb-e9da-4b51-a3db-702f85009389)
+
 
 
 <!-- ABOUT THE PROJECT -->
