@@ -29,7 +29,8 @@ This project was built with
 The architecture of the model is shown below. The frame predictor model takes in the first ten frames as input and predicts the future ten frames. The
 discriminator model tries to classify between the true future frames and predicted future frames. For the first ten time instances, we use the ground truth past frames as input, where as for the future time instances, we use the past predicted frames as input.
 
-![image](https://github.com/riddhiman-ghatak/next_video_rame_prediction/assets/109431506/918908d4-db3c-4ff5-b456-53c67a46ac32)
+![image](https://github.com/riddhiman-ghatak/next_video_frame_prediction/assets/109431506/b6b14641-a005-4153-b3fa-ddf5368738b8)
+
 
 
 
@@ -38,17 +39,19 @@ discriminator model tries to classify between the true future frames and predict
 
 ## Results
 
-Detailed results and inferences are available in report [here](./docs/report.pdf).
+
 
 We evaluate the performance of the model for long-term predictions to reveal its generalization capabilities. We provide the first 20 frames as input and let the model predict for the next 100 frames. 
 
 Ground truth frames (1-10):
 
-![image](https://github.com/riddhiman-ghatak/next_video_rame_prediction/assets/109431506/21fa21b0-8715-4c6e-b4c2-149f763d0a80)
+![image](https://github.com/riddhiman-ghatak/next_video_frame_prediction/assets/109431506/2a9c1528-7a3f-4548-888c-65b39ff2fb59)
+
 
 Predicted frames (2-101):
 
-![image](https://github.com/riddhiman-ghatak/next_video_rame_prediction/assets/109431506/94452476-8c1e-471a-a74b-1d4966c70c2a)
+![image](https://github.com/riddhiman-ghatak/next_video_frame_prediction/assets/109431506/2ea67825-95a4-4d71-9cc6-c050b09ee9f4)
+
 
 
 
@@ -57,12 +60,14 @@ We evaluate the performance of the model on out-of-domain inputs which the model
 
 Ground truth frames (1-10):
 
-![image](https://github.com/riddhiman-ghatak/next_video_rame_prediction/assets/109431506/48d30b8a-106c-448a-ad82-d5ae388e3b88)
+![image](https://github.com/riddhiman-ghatak/next_video_frame_prediction/assets/109431506/3760ac9a-0c0d-4434-8d01-033612b4e377)
+
 
 
 Predicted frames (2-41):
 
-![image](https://github.com/riddhiman-ghatak/next_video_rame_prediction/assets/109431506/c5eacf1d-fbb1-4fc5-b4cd-63960feca225)
+![image](https://github.com/riddhiman-ghatak/next_video_frame_prediction/assets/109431506/6e0f4076-8737-4300-a00e-2a0be74e2e12)
+
 
 
 
